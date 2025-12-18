@@ -17,6 +17,9 @@ header .container-bateria-wifi img{
     width: 50px;
     height: 50px;
 }
+body{
+    transition: 0.5s ease-in-out;
+}
 main{
     margin-bottom: 100px;
 }
@@ -70,7 +73,7 @@ main #card-banco img{
 }
 main .menu-navegacao{
     position: fixed;
-    bottom: 0vh;
+    bottom: 5vh;
     width: 100%;
     height: 60px;
     background-color: #f1f1f1;
@@ -79,5 +82,9 @@ main .menu-navegacao{
     align-items: center;
 }
 main .menu-navegacao button{
-    border-radius: 15px;
+    border-radius: 10px;
+}
+main .menu-navegacao button img{
+    width: 100%;
+    height: 30px;
 }

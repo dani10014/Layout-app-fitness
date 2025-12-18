@@ -1,4 +1,21 @@
 let spanData = document.getElementById("data-atual");
+let botoesSecao = document.querySelectorAll(".btn.btn-light");
+
+
+botoesSecao.forEach(button => {
+    button.addEventListener("click", () => {
+        let categoriaEscolhida = button.dataset.categoria;
+        console.log(categoriaEscolhida);
+
+
+    if(categoriaEscolhida === "noticias"){
+        document.body.style.transform = "translateX(-100%)";
+    setTimeout(function(){
+        window.location.href = "noticias.html";
+        }, 600);
+    }
+});
+});
 
 function atualizarRelogio(){
     let dataAtual = new Date();
