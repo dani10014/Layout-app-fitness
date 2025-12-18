@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <div class="container-bateria-wifi">
+                <h4 id="horario">12:00</h4>
+                <img src="./Bateria-celular.png" alt="Porcentagem-bateria">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="imagem-principal">
+                <img src="./pexels-cathy-b-748462208-34160377(1).jpg" alt="Imagem Principal">
+            </div>
+        </section>
+        <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 d-flex flex-column text-center gap-3">
+                            <div class="card" id="card-data">
+                                <div class="card-body">
+                                    <h5 class="card-title">Data</h5>
+                                    <span id="data-atual"></span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Spotify</h5>
+                                    <img src="./D_694898-MLA99938164511_112025-C.jpg">
+                                    <marquee behavior="scroll" direction="left">Tame Impala</marquee>
+                                    <audio controls>
+                                        <source src="https://youtu.be/2g5xkLqIElU?si=d57d-MfSeyzFfIEH" type="audio/mpeg">
+                                        <source src="audio.mp3" type="audio/mpeg">
+                                        Seu navegador não suporta o elemento de áudio.
+                                    </audio>
+                                </div>
+                            </div>
+                            <div class="card" id="card-clima">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ponte preta</h5>
+                                    <img src="./nublado.png">
+                                    <p>22°C - Nublado</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6 mb-3">
+                                    <div class="card" id="card-instagram">
+                                        <div class="card-body">
+                                            <img src="./Gemini_Generated_Image_2cq3ud2cq3ud2cq3(1).png" width="100%" height="20px"> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <div class="card" id="card-linkedin">
+                                        <div class="card-body">
+                                            <img src="./Gemini_Generated_Image_6gue6m6gue6m6gue.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <div class="card" id="card-noticia">
+                                        <div class="card-body">
+                                            <img src="./noticias.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <div class="card" id="card-banco">
+                                        <div class="card-body">
+                                            <img src="./banco.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <div class="menu-navegacao">
+                <button class="btn btn-light">Menu 1</button>
+                <button class="btn btn-light">Menu 1</button>
+                <button class="btn btn-light">Menu 1</button>
+                <button class="btn btn-light">Menu 1</button>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

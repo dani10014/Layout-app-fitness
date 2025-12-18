@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .container-bateria-wifi{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 10px 20px;
+    align-items: center;
+}
+header .container-bateria-wifi h4{
+    margin-bottom: 0;
+}
+header .container-bateria-wifi img{
+    width: 50px;
+    height: 50px;
+}
+main{
+    margin-bottom: 100px;
+}
+main .imagem-principal{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding:40px;
+}
+main .imagem-principal img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+main .card{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.658);
+}
+main .card img{
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+}
+main .card audio{
+    width: 100%;
+}
+main #card-data{
+    background-color: black;
+    color: #fff;
+}
+main #card-clima img{
+    width: 100%;
+    height: 50px;
+    object-fit: scale-down;
+    border-radius: 10px;
+}
+main #card-instagram img{
+    object-fit: scale-down;
+    height: 50px;
+}
+main #card-linkedin img{
+    object-fit: scale-down;
+    height: 50px;
+}
+main #card-noticia img{
+    object-fit: scale-down;
+    height: 50px;
+}
+main #card-banco img{
+    object-fit: scale-down;
+    height: 50px;
+}
+main .menu-navegacao{
+    position: fixed;
+    bottom: 0vh;
+    width: 100%;
+    height: 60px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .menu-navegacao button{
+    border-radius: 15px;
+}
